@@ -12,6 +12,10 @@
         
     </head>
     <body class=" antialiased">
+        @if(session()->has('Success'))
+        <div class="alert">
+            {{session()->get('Success')}}
+        @endif
        <div class="nav-wrapper">
         <nav>
             <a href="{{route('home.index')}}"><div>Home</div></a>

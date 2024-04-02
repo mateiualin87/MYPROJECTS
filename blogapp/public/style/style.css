@@ -123,6 +123,15 @@ a:hover{
 #button-form{
     margin-top: 10px auto;
 }
+.alert{
+    width: 100px;
+    height: 30px;
+    background-color: #D4EDDA;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 

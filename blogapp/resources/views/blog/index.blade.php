@@ -4,7 +4,7 @@
         @foreach($blogs as $blog)
         <div class="blog-card">
         <img src="/images/blog.jpeg" alt="">
-            <div class="blog-content">  
+            <div class="blog-content"> 
                 <div class="title">{{$blog->title}}</div>
                 <div class="description">{{$blog->description}}</div>
                 <div class="date">{{$blog->created_at}}</div>
